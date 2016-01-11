@@ -7,10 +7,15 @@ body{
 }
 
 /* HEADER ============================== */
-
+.Me{
+    float: left;
+}
 /* ABOUT ============================== */
+.about{
+
+}
 
 /* COMPONENTS ============================== */
-.Comp1{
-    background-color:yellow;
+.Comp4{
+    background-color: yellow;
 }
