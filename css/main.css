@@ -4,18 +4,25 @@
 body{
     text-align: center;
     margin: 30px;
+    
 }
+h1{
+    color: darkred;
+
+}
+
 
 /* HEADER ============================== */
-.Me{
-    float: left;
-}
-/* ABOUT ============================== */
-.about{
 
+/* ABOUT ============================== */
+p.myself{
+    border-style: dotted;
+    font-weight: 200;
 }
 
 /* COMPONENTS ============================== */
+
+
 .Comp4{
     background-color: yellow;
 }
