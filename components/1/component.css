@@ -1,4 +1,57 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+body{
+    max-width:1440px;
+    text-align:center;
+}
 
+h1{
+    font-size: 300%;
+    margin-bottom: 0;
+    font-family: 'Tienne', serif
+
+}
+h2{
+    margin-top:0;
+    font-family: 'Neuton', serif;
+    letter-spacing:5px;
+    font-size: 100%
+}
+
+img{
+    margin:0 auto;
+    width: 100%;
+}
+
+nav{
+    margin: 50px;
+    font-family: 'Tienne', serif
+}
+
+a{
+    margin:40px;
+    letter-spacing:2px;
+    text-decoration: none;
+    color: lightgrey
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* mouse over link */
+a:visited {
+    color: lightgrey;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightgrey;
+}
+
+/* selected link */
+a:active {
+    color: lightgrey;
+}
