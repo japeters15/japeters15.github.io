@@ -2,3 +2,25 @@
 ============================================================
 ============================================================*/
 
+body{
+    background-color:#f5cc5d;
+    color:white;
+    max-width:1500px;
+}
+
+h1{
+    text-align:center;
+}
+
+section{
+    display:inline;
+}
+
+button{
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f5cc5d;
+    border: 2px solid white;
+    color: white;
+}
+
