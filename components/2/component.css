@@ -12,10 +12,6 @@ h1{
     text-align:center;
 }
 
-section{
-    display:inline;
-}
-
 button{
     border-radius: 8px;
     font-size: 16px;
@@ -24,3 +20,24 @@ button{
     color: white;
 }
 
+p{
+    width: 40%;
+}
+
+article.page{
+    width:800px;
+}
+
+article.pulse{
+    width:800px;
+
+}
+
+article.clock{
+    width:800px;
+
+}
+
+article.refresh{
+    width:800px;
+}
