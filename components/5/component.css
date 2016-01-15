@@ -1,4 +1,18 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+body{
+    max-width:933px;
+    color: lightgrey;
+}
 
+footer{
+    background-color: #191919;
+    max-width:980px;
+    margin:auto;
+}
+
+img{
+    width:20%;
+    margin: 30px;
+}
