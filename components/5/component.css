@@ -2,17 +2,36 @@
 ============================================================
 ============================================================*/
 body{
-    max-width:933px;
+    max-width:1700px;
     color: lightgrey;
 }
 
 footer{
     background-color: #191919;
-    max-width:980px;
+    max-width:1700px;
     margin:auto;
+    padding: 50px;
+    font-family: 'Hind', sans-serif;
+    font-weight: normal;
 }
 
 img{
     width:20%;
     margin: 30px;
+}
+
+p.below {
+    margin-left: 50px;
+
+}
+
+p.right{
+    float:right;
+    margin-right: 450px;
+}
+
+input{
+    background-color: #191919;
+    color: lightgray;
+    border-bottom: thick gray;
 }
