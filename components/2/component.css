@@ -5,7 +5,7 @@
 body{
     background-color:#f5cc5d;
     color:white;
-    max-width:1500px;
+    max-width:1600px;
 }
 
 h1{
@@ -33,19 +33,36 @@ p{
 
 }
 
-article.page{
-    width:800px;
+img{
+    width: 100px;
 }
 
-article.pulse{
-    width:800px;
+ul{
+    list-style-type:none;
+    margin-left: 180px;
+    margin-right: 20px;
 }
 
-article.clock{
-    width:800px;
+li.page{
+    margin: 30px;
+    float:left;
+    width: 250px;
 }
 
-article.refresh{
-    width:800px;
+li.pulse{
+    margin: 30px;
+    float:left;
+    width: 250px;
+}
 
+li.clock{
+    margin: 30px;
+    float:left;
+    width: 250px;
+}
+
+li.refresh{
+    margin: 30px;
+    float:left;
+    width: 250px;
 }
