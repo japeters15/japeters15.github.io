@@ -43,6 +43,12 @@ p{
     width:100%;
 }
 
+.buttons li{
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+}
+
 .about{
     padding: 20px;
     margin: 5%;
@@ -58,18 +64,3 @@ img{
     clear:left;
 }
 
-.Comp2{
-
-}
-
-.Comp3{
-
-}
-
-.Comp4{
-    background-color: yellow;
-}
-
-.Comp5{
-
-}
