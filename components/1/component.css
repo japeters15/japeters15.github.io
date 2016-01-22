@@ -30,6 +30,21 @@ nav{
 
 nav li{
     display: inline;
+    position:relative;
+}
+
+ul{
+    padding:0;
+    margin:0;
+}
+
+ul ul{
+    position:absolute;
+    display:none;
+}
+
+li:hover ul {
+    display: block;
 }
 
 nav li a{
