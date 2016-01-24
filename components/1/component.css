@@ -32,12 +32,14 @@ nav{
 nav li{
     display: inline;
     position:relative;
+    border-right: thick;
 }
 
 ul{
     padding:0;
     margin:0;
 }
+
 
 ul ul{
     position:absolute;
@@ -58,6 +60,7 @@ a{
     letter-spacing:2px;
     text-decoration: none;
     color: lightgrey
+
 }
 
 /* unvisited link */

@@ -27,32 +27,38 @@ footer {
 
 }
 
+li {
+
+    display:inline-block;
+
+
+}
+
+li.Policy {
+
+    margin-left: 40px;
+
+    margin-bottom: 10px;
+
+    vertical-align: text-top;
+
+}
+
+li.address {
+
+    margin-left: 500px;
+}
+
+li.form {
+
+    margin-left: 200px;
+}
+
 img {
 
     width: 20%;
 
-}
-
-article.below {
-
-    width: 33%;
+    margin-top: 20px;
 
 }
 
-article.right {
-
-    float: right;
-
-    text-align: left;
-
-    width: 33%;
-
-}
-
-form {
-
-    float: right;
-
-    width: 33%;
-
-}
