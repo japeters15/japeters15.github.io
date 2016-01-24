@@ -6,6 +6,7 @@ body{
     background-color:#f5cc5d;
     color:white;
     max-width:1600px;
+    text-align:center;
 }
 
 h1{
@@ -18,6 +19,9 @@ h1{
 h2{
     font-family: 'Roboto', sans-serif;
     font-weight:normal;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom:10px;
 }
 
 button{
@@ -29,7 +33,7 @@ button{
 }
 
 p{
-    width: 40%;
+    margin-top: 50px;
 
 }
 
@@ -37,32 +41,9 @@ img{
     width: 100px;
 }
 
-ul{
-    list-style-type:none;
-    margin-left: 180px;
-    margin-right: 20px;
-}
-
-li.page{
-    margin: 30px;
+article{
     float:left;
-    width: 250px;
-}
-
-li.pulse{
-    margin: 30px;
-    float:left;
-    width: 250px;
-}
-
-li.clock{
-    margin: 30px;
-    float:left;
-    width: 250px;
-}
-
-li.refresh{
-    margin: 30px;
-    float:left;
-    width: 250px;
+    width:300px;
+    padding:20px;
+text-align:left;
 }

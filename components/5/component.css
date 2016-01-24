@@ -1,37 +1,58 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
-body{
+body {
+
     max-width:1700px;
+
     color: lightgrey;
+
 }
 
-footer{
+footer {
+
     background-color: #191919;
+
     max-width:1700px;
+
     margin:auto;
+
     padding: 50px;
+
     font-family: 'Hind', sans-serif;
+
     font-weight: normal;
-}
 
-img{
-    width:20%;
-    margin: 30px;
-}
-
-p.below {
-    margin-left: 50px;
+    overflow: auto;
 
 }
 
-p.right{
-    float:right;
-    margin-right: 450px;
+img {
+
+    width: 20%;
+
 }
 
-input{
-    background-color: #191919;
-    color: lightgray;
-    border-bottom: thick gray;
+article.below {
+
+    width: 33%;
+
+}
+
+article.right {
+
+    float: right;
+
+    text-align: left;
+
+    width: 33%;
+
+}
+
+form {
+
+    float: right;
+
+    width: 33%;
+
 }
