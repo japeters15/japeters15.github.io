@@ -64,7 +64,7 @@ li.home{
     border-color: black;
 }
 
-li.music{
+.music, .listen, .charts{
     border: thin;
     border-style: solid;
     border-left-width: 3px;
@@ -74,25 +74,6 @@ li.music{
     border-color: black;
 }
 
-li.listen{
-    border: thin;
-    border-style: solid;
-    border-left-width: 3px;
-    border-right-width:3px;
-    border-top: none;
-    border-bottom: none;
-    border-color: black;
-}
-
-li.charts{
-    border: thin;
-    border-style: solid;
-    border-left-width: 3px;
-    border-right-width:3px;
-    border-top: none;
-    border-bottom: none;
-    border-color: black;
-}
 
 li.events{
     border: thin;
