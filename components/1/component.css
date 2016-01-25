@@ -64,6 +64,10 @@ li.home{
     border-color: black;
 }
 
+li.home a{
+    color: lightgrey;
+}
+
 .music, .listen, .charts{
     border: thin;
     border-style: solid;
@@ -89,26 +93,7 @@ a{
     margin:40px;
     letter-spacing:2px;
     text-decoration: none;
-    color: lightgrey
-
-}
-
-/* unvisited link */
-a:link {
     color: black;
+
 }
 
-/* mouse over link */
-a:visited {
-    color: lightgrey;
-}
-
-/* mouse over link */
-a:hover {
-    color: lightgrey;
-}
-
-/* selected link */
-a:active {
-    color: black;
-}
