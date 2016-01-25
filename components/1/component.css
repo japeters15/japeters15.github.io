@@ -32,7 +32,6 @@ nav{
 nav li{
     display: inline;
     position:relative;
-    border-right: thick;
 }
 
 ul{
@@ -53,6 +52,56 @@ li:hover ul {
 nav li a{
     padding: 0.25rem 1.5rem;
     font-weight: 600;
+}
+
+li.home{
+    border: thin;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right-width:3px;
+    border-color: black;
+}
+
+li.music{
+    border: thin;
+    border-style: solid;
+    border-left-width: 3px;
+    border-right-width:3px;
+    border-top: none;
+    border-bottom: none;
+    border-color: black;
+}
+
+li.listen{
+    border: thin;
+    border-style: solid;
+    border-left-width: 3px;
+    border-right-width:3px;
+    border-top: none;
+    border-bottom: none;
+    border-color: black;
+}
+
+li.charts{
+    border: thin;
+    border-style: solid;
+    border-left-width: 3px;
+    border-right-width:3px;
+    border-top: none;
+    border-bottom: none;
+    border-color: black;
+}
+
+li.events{
+    border: thin;
+    border-style: solid;
+    border-left-width: 3px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;;
+    border-color: black;
 }
 
 a{
@@ -80,5 +129,5 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: lightgrey;
+    color: black;
 }
