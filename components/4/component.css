@@ -4,34 +4,42 @@
 
 body{
     background-color: #f3f3f3;
-    max-width: 1400px;
+    max-width: 1442px;
 }
 
-table{
-    margin-left: 280px;
-    margin-right: 280px;
-    margin-top: 100px;
-    margin-bottom: 245px;
-}
+ul{
 
-p.name{
-    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
 }
 
 p.quote{
     font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
 }
 
-table{
-    width:100%;
+p.author{
+    font-family: 'Roboto', sans-serif;
+    line-height: 400%;
+    margin-left: 10px;
+    color: #e8503e;
 }
 
-td.first{
-    margin-right: 30px;
+li.left_arrow, li.right_arrow{
+    float:left;
+    margin-top: 80px;
 }
 
-td.three{
-    vertical-align: middle;
+li.symbol{
+    float:left;
+    margin-left: 150px;
 }
+
+li.description{
+    float:left;
+    margin-top: 40px;
+    margin-right: 150px
+}
+
+
 
 
