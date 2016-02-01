@@ -41,12 +41,12 @@ ul{
 
 
 ul ul{
-    position:absolute;
-    display:none;
+    position: absolute;
+    display:inline;
 }
 
 li:hover ul {
-    display: block;
+    display: inline;
 }
 
 nav li a{

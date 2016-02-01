@@ -3,7 +3,7 @@
 ============================================================*/
 body {
 
-    max-width:1700px;
+    max-width:1440px;
 
     color: lightgrey;
 
@@ -13,8 +13,6 @@ footer {
 
     background-color: #191919;
 
-    max-width:1700px;
-
     margin:auto;
 
     padding: 50px;
@@ -22,6 +20,8 @@ footer {
     font-family: 'Hind', sans-serif;
 
     font-weight: normal;
+
+    font-size: 15px;
 
     overflow: auto;
 
@@ -46,7 +46,7 @@ li.Policy {
 
 li.address {
 
-    margin-left: 500px;
+    margin-left: 350px;
 }
 
 li.form {
@@ -83,7 +83,7 @@ input[type=text] {
 
     border-top: none;
 
-    border-color: red;
+    border-color: dimgray;
 
     background-color: transparent;
 

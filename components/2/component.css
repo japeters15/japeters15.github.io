@@ -5,8 +5,9 @@
 body{
     background-color:#f5cc5d;
     color:white;
-    max-width:1600px;
+    max-width:1440px;
     text-align:center;
+    display:block;
 }
 
 h1{
@@ -27,6 +28,7 @@ h2{
 button{
     border-radius: 8px;
     font-size: 16px;
+    padding: 20px;
     background-color: #f5cc5d;
     border: 2px solid white;
     color: white;
@@ -45,5 +47,6 @@ article{
     float:left;
     width:300px;
     padding:20px;
-text-align:left;
+    text-align:left;
+    display:block;
 }
