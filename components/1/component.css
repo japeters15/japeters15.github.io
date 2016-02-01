@@ -34,59 +34,70 @@ nav li{
     position:relative;
 }
 
-ul{
-    padding:0;
+ul li {
+    position:relative;
+}
+
+ul, li {
     margin:0;
+    padding:0;
 }
 
-
-ul ul{
-    position: absolute;
-    display:inline;
+li {
+    display:inline-block;
+    padding:10px 10px;
 }
 
-li:hover ul {
-    display: inline;
+ul li ul {
+    display:none;
+    position:absolute;
+    top:45px;
+    left:0;
 }
 
-nav li a{
-    padding: 0.25rem 1.5rem;
-    font-weight: 600;
+ul li ul li {
+    display:block;
 }
 
-li.home{
-    border: thin;
+ul li:hover {
+    text-shadow: none;
+    color:lightgray;
+}
+
+ul li:hover ul {
+    display:block;
+}
+
+.home{
+    color: lightgray;
+    border:thin;
     border-style: solid;
     border-left: none;
+    border-right-width:1px;
     border-top: none;
     border-bottom: none;
-    border-right-width:3px;
-    border-color: black;
-}
-
-li.home a{
-    color: lightgrey;
+    border-color: lightgrey;
 }
 
 .music, .listen, .charts{
     border: thin;
     border-style: solid;
-    border-left-width: 3px;
-    border-right-width:3px;
+    border-left-width: 1px;
+    border-right-width:1px;
     border-top: none;
     border-bottom: none;
-    border-color: black;
+    border-color: lightgray;
 }
 
 
-li.events{
+.events{
     border: thin;
     border-style: solid;
-    border-left-width: 3px;
+    border-left-width: 1px;
     border-right: none;
     border-top: none;
     border-bottom: none;;
-    border-color: black;
+    border-color: lightgrey;
 }
 
 a{
